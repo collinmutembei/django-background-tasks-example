@@ -21,7 +21,7 @@ Process tasks
 python manage.py process_tasks
 ```
 
-## Python 2: OK
+## Python 2
 
 Tasks are executed and moved from `backgroun_task` table to `background_task_completedtask` table.
 
@@ -39,7 +39,7 @@ sqlite> select * from background_task_completedtask;
 sqlite>
 ```
 
-You can run this example with python 2 using git python2 branch.
+You can run this example with python 2 using git [python2 branch](https://github.com/hnakamur/django-background-tasks-example/tree/python2).
 
 ## Python 3
 
@@ -58,4 +58,4 @@ sqlite> select * from background_task_completedtask;
 1|api.tasks.demo_task|[["hello"], {}]|c8f1363b9f690df3369658038248adb182707b2b|0|2015-08-26 12:50:31.981568|0|||1954|2015-08-26 12:50:31.977507
 ```
 
-You can run this example with python 3 using git master branch.
+You can run this example with python 3 using git [master branch](https://github.com/hnakamur/django-background-tasks-example/tree/master).
