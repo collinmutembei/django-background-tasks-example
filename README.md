@@ -1,6 +1,6 @@
 django-background-tasks-example
 ===============================
-This example shows how to set up and use [django-background-tasks](https://github.com/artera/django-background-tasks/).
+This example shows how to set up and use [django-background-tasks](https://github.com/arteria/django-background-tasks/).
 
 ## Usage
 
@@ -20,4 +20,4 @@ Process tasks
 
 ```
 python manage.py process_tasks
-``` 
+```
