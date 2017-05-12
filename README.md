@@ -6,7 +6,8 @@ This example shows how to set up and use [django-background-tasks](https://githu
 
 Start the server.
 
-```
+```shell
+cd project
 python manage.py runserver
 ```
 
